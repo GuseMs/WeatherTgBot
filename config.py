@@ -57,6 +57,3 @@ city_dict = {
 
 
 ADMINS = [5355657752, ]
-
-a = {'a': 1, 'b': 4}
-print(a['a'])
