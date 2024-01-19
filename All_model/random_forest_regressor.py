@@ -39,7 +39,7 @@ mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 mae = mean_absolute_error(y_test, y_pred)
 
-# joblib.dump(random_forest_regressor, 'trained_random_forest_regressor.joblib')
+joblib.dump(random_forest_regressor, 'trained_random_forest_regressor.joblib')
 
 print(f'mse: {mse}\nr2: {r2}\nmae: {mae}')
 
