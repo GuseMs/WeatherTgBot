@@ -2,8 +2,6 @@ import pandas as pd
 import joblib
 from config import columns
 from Function.minor_features import extract_precipitation
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
 
 def prediction_temperature(punkt: str, spisok: list) -> dict:
     model = joblib.load('trained_random_forest_regressor.joblib')
