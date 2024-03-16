@@ -56,28 +56,3 @@ for city in lines[1:]:
             except Exception:
                 print('Какая-то ошибка!')
                 continue
-
-        # headers = ['Населённый пункт', 'Год', 'Месяц',
-        #            'Давление', 'Влажность', 'Осадки_(м/м)', 'Погода'] 'День', 'Время_суток', 'Температура', 'Скорость_ветра(м/с)',
-        #            'Направление_ветра',
-
-
-        # csv_headers = ['Населённый пункт', 'Год', 'Месяц', 'День', 'Время_суток', 'Температура', 'Скорость_ветра(м/с)',
-        #                'Направление_ветра',
-        #                'Давление', 'Влажность', 'Осадки_(м/м)', 'Погода']
-        #
-        # with open(f'C:\П\Tg_weather_bot\Saint-Petersburg/{city[1:-1]}.csv', 'a', newline='', encoding='utf-8') as file:
-        #     writer = csv.writer(file)
-        #     writer.writerow(
-        #         csv_headers)
-        #
-        #     for city, years in all_the_time_dict.items():
-        #         for year, months in years.items():
-        #             for month, days in months.items():
-        #                 for day, day_data in days.items():
-        #                     for time_of_day, data in day_data.items():
-        #                         row = [city[1:-1], year, month, day, time_of_day] + data
-        #
-        #                         print(f'Запись {city[1:-1]} за {day} {month} {year}....')
-        #
-        #                         writer.writerow(row)
